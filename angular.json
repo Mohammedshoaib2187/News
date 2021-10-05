@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "768ba44b-2a82-4a2f-a197-ad4302c1da77"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -27,7 +30,19 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/owl.carousel.min.css",
+              "src/assets/css/ticker-style.css",
+              "src/assets/css/flaticon.css",
+              "src/assets/css/slicknav.css",
+              "src/assets/css/animate.min.css",
+              "src/assets/css/magnific-popup.css",
+              "src/assets/css/fontawesome-all.min.css",
+              "src/assets/css/themify-icons.css",
+              "src/assets/css/slick.css",
+              "src/assets/css/nice-select.css",
+              "src/assets/css/style.css"
             ],
             "scripts": []
           },
