@@ -21,6 +21,8 @@ import { MapsComponent } from './maps/maps.component';
 import { GetintouchComponent } from './getintouch/getintouch.component';
 import { LatestComponent } from './latest/latest.component';
 import { LatestTrendingComponent } from './latest-trending/latest-trending.component';
+import { DetailsComponent } from './details/details.component';
+import { FollowComponent } from './follow/follow.component';
 
 @NgModule({
   declarations: [
@@ -42,11 +44,14 @@ import { LatestTrendingComponent } from './latest-trending/latest-trending.compo
     MapsComponent,
     GetintouchComponent,
     LatestComponent,
-    LatestTrendingComponent
+    LatestTrendingComponent,
+    DetailsComponent,
+    FollowComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
